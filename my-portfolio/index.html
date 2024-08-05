@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Bargir</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+   <style>
+   
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}   
+li{
+    list-style-type: none;
+    display: inline-block;  
+
+    text-transform: uppercase;
+   
+}
+li a{
+    padding: 10px 10px;
+    width: 25px;
+    height: 25px;
+}
+.navbar{
+    display: inline-flex;
+    position: relative;
+}
+.active{
+   background-color: #E2C275;
+   color:black;
+}
+
+.navbar ul{
+    position: sticky;
+    left: 10px;
+}
+.navbar{
+    background-color: #EADCA6;
+    width: 100%;
+    
+}
+
+ul{
+    float: right;
+    word-spacing: 20px;
+    font-size: 21px;
+    font-style: bold;
+    font-family: sans-serif;
+    margin-left:70px ;
+    
+}
+a:hover{
+    color: white;
+    background-color: #C36A2D;
+   
+}
+button{
+    background-color:#E2C275;
+    font-style: sans-serif;
+    font-size: 21px;
+    font-style: bold;
+    right:120px;
+    margin-left: 350px;
+}
+p{
+    margin: 0 0 30px;
+    
+    font-size: 20px;
+            
+    }
+ h1{
+    margin: 0;
+    padding:0; 
+    
+    
+    }
+button:hover{color: white;
+    background-color: #C36A2D;
+   }
+.home-text{
+    background-color:#f7f2f2;
+    padding: 100px;
+    }
+    .about-info{
+        padding-left: 80px;
+        margin-bottom: 150px;
+        
+    }
+
+/* .profile{ 
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 500px;
+    margin-top: 0%;
+    padding-left: 100px;
+    padding-top: 10px;
+    float: right;
+    vertical-align: top;
+    display: flex;
+    
+    }*/
+    .profile{
+        float: right;
+        padding-right: 300px;
+        margin-left: 600px;
+        object-fit: contain;
+      
+       
+    }
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+/* .skills{
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 50px;
+    }
+        .skill-item{
+            background-color: #E2C275;
+            border: 1px solid black;
+            font-style: bold;
+            padding: 5px 15px;
+            text-transform: capitalize;
+            margin: 0 10px 10px 0;
+            border-radius: 20px;
+            font-size: 20px;
+        } */
+        .index{
+            display: inline-flex;
+            
+        }
+        .main{
+            display: inline-flex;
+        }
+        i{
+            height: 50px;
+            width: 50px;
+        }
+        /* Skills Section Styling */
+        /* .skills{
+            padding-left: 80px;
+        } */
+
+        .skills .column-right{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            
+            
+
+        }
+        .skills .column-right .info{
+            display: flex;
+            align-items: right;
+            justify-content:space-between;
+            
+        }
+        .skills .column-right .bars{
+            margin-bottom: 20px;
+        }
+        .skills .column-right span{
+            font-size: 18px;
+            font-size: 18px;
+            margin-right: 200px;
+
+        }
+        .skills .column-right .line{
+            height: 5px;
+            width: 60%;
+            background:lightgray;
+            position: relative;
+        }
+        .skills{
+            margin-left: 80px;
+
+        }
+        .skills .column-right .left p{
+            text-align: justify;
+        }
+        .skills .column-right .left a{
+            text-align: justify;
+        }
+        .skills .column-right .line::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 80%;
+            left: 0;
+            top: 0;
+            background: #C36A2D;
+
+        }
+        .skills .column-right .html::before{
+            width: 90%;
+
+        }
+        .skills .column-right .css::before{
+            width: 60%;
+
+        }
+        .skills .column-right .java::before{
+            width: 70%;
+
+        }
+        .skills .column-right .Javascript::before{
+            width: 80%;
+
+        }
+        .skills .column-right .php::before{
+            width: 40%;
+
+        }
+        .skills .column-right .Bootstrap::before{
+            width: 20%;
+
+        }
+        /* Skill section styling end */
+        .edu{
+
+            padding-left: 80px;
+            background-color: whitesmoke;
+
+        }
+        .skills{
+            margin-bottom: 150px;
+            margin-top: 50px;
+        }
+
+        /* Table styling */
+
+        table{
+        font-size: 20px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+        width: 50%;
+        margin-left:120px ;
+    }
+    th,td{
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th{
+        background-color: #E2C275;
+    }
+    
+        tr:hover {background-color:#C36A2D}
+
+        /* Table styling end */
+
+        /* Education Section Styling Starts */
+
+        .timeline{
+            padding: 0;
+            margin: 0;
+            line-height: 10px;
+          
+        }
+        .timeline{
+            position: relative;
+        }
+        
+        .timeline::before{
+            content: "";
+            position:absolute;
+            height: 100%;
+            width: 2px;
+            top: 0;
+            left: 5px;
+            background-color: #C36A2D;
+        }
+        .timeline-item{
+            margin-bottom: 30px;
+            position: relative;
+            padding: 15px 0 0 40px;
+        }
+        .timeline-item::before{
+            content: '';
+            position: absolute;
+            height: 11px;
+            width: 11px;
+            background-color:#C36A2D ;
+            left: 0;
+            top: 16px;
+            border-radius: 50%;
+            z-index: 1;
+            right: -17px;
+
+        }
+        .timeline-item .date{
+            display:block;
+            font-weight: 400;
+            margin: 0 0 25px;
+            color:#ecaf20 ;
+
+        }
+        .timeline-item:last-child{
+            margin-bottom: 0;
+        }
+        .timeline-item h2{
+            margin: 0 0 25px;
+        }
+        .timeline-item h4 span{
+            font-weight: 400;
+
+        }
+        .tab-content{
+            padding: 40px 0;
+        }
+        .grade{
+            
+            padding-bottom: 30px;
+            padding-top:2px ;
+            padding-right: 20px;
+            width: 50%;
+        }
+        
+        /* Education Section Styling End */
+
+        /* Contact Section Styling */
+
+        .contact-section{
+            padding-left: 80px;
+            background-color: whitesmoke;
+
+            
+        }
+        .contact-form{
+            background-color: whitesmoke;
+            
+         
+        }
+        .input-group{
+            padding-bottom: 40px;
+        }
+        .contact-info{
+            
+           padding-bottom: 50px;
+            line-height: 0.6;
+            background-color: whitesmoke;
+            
+        }
+        #txtbox{
+            font-size: 20px;
+            height: 25px;
+            width: 450px;
+        }
+        .btn{
+            margin-left: 150px;
+            border-radius: 10px;
+        }
+        .contact-cat{
+            background-color: whitesmoke;
+        }  
+        
+        
+            
+
+        /* Contact SEction End */
+
+       
+
+        .row {
+            display: flex;
+        }
+
+
+        .column {
+            flex: 50%;
+            padding: 10px;
+            height: 350px;
+        }
+        .project-section{
+            padding-left: 80px;
+        }
+
+        
+       
+   </style>
+</head>
+
+<body>
+    <!-------------------- Navigation Bar start --------------------------->
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="#index">Home</a>
+            </li>
+            <li>
+                <a href="#About">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Project</a>
+            </li>
+            
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <!-- <button>Download My CV <img src="symbol.png" width="25px" height="25px"></button> -->
+    </div>
+    <br><br>
+    <div class="main">
+        <section class="home-section" id="index">
+        <div class="container">
+            <div class="row">
+                <div class="home-text">  
+                    <div class="index">
+                        <div class="text">
+                   
+                            <p>Hii There, I'm</p>
+                            <h1 style="color: #C36A2D;font-size: 70px;">Simran Bargir</h1>
+                             <p style="color: rgb(146, 143, 143);font-size: 30px;margin-top:10px ;">Student</p>
+                             <br>
+                             <a href="https://www.linkedin.com/in/simran-bargir-220797222/"><i class="fab fa-linkedin fa-2x"></i></a>
+                             <i class="fab fa-facebook-square fa-2x"></i>
+                             <a href="https://www.instagram.com/bargirsimran_07/"><i class="fab fa-instagram-square fa-2x"></i></a>
+                        </div>
+                <div class="profile">
+                    
+                    <img src="img3.jpg" alt="profile-img" align="top-left" width="300px" height="500px">
+                </div>
+            </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    </section>
+    </div>
+
+    <!-- End of Navigation bar -->
+    <br><br><br><br><br>
+
+
+    <!-- About Section -->
+    <div class="about-info" id="About">
+        
+        <div class="abt-img">
+            <img src="img4.jpg" alt="Image" align="left" width="350px" height="400px" style="margin-right: 70px;">
+    </div>
+
+<div class="about" style="margin-left: 60px;">
+    <h1 style="color:#C36A2D;font-size: 40px;"><strong>About Me</strong></h1>
+    <br>
+    <h2 style="font-size: 20px;margin: 10px;">I'm Simran and I'm Student</h2>
+    <p style="font-size: 20px;">Currently Learning Bachelor of Engineering(B.E) at Dr. D.Y.Patil College of Engineering, Pune in the stream of Artificial Intelligence and Data Science Department.Acquiring new skills on Full Stack Web Development at Dsmart Innovative Technology.I am very interested in the Software Field. That was the reason I choose to pursue higher studies in Software Engineering. Post that, my internship experience and other practical projects in the college further boosted my interest in Software Engineer as a full-time career option.I am also an active member in my College and take initiative in organizing Various Events.I am looking forward to knowing more about Opportunities.</h3>
+        <br><br>
+        <button href="Simran Bargir resume.pdf" style="border: 1px solid black;border-radius: 10px;margin-left:5px ; ">Download My CV <i class="fas fa-file-download fa-2x"></i></button>
+        <br>
+   
+    </div>
+    </div>
+
+    <!-- End Of About section -->
+
+
+    <br><br><br>
+
+    
+
+    <!-- Education Section Start -->
+    
+    <div class="edu" id="education">
+
+        <h1 style="color:#C36A2D;font-size: 40px;"><strong>My Education</strong></h1>
+        <br><br>
+        <div class="timeline">
+            <div class="timeline-item">
+
+        <span class="date" style="font-size: 20px;">2007 - 2019</span>
+        <h2>Pre Secondary School - Anas English School</h2>
+        <p>Completed my SSC education from Anas English School, Ichalkaranji</p>
+        <br><br><br><br>
+
+        <span class="date" style="font-size: 20px;">2020 - 2022</span>
+        <h2>Post Secondary School - DKTE'S, Yashwantrao Chavan Polytechnic, Ichalkaranji</h2>
+        <p>Completed my Diploma education from DKTE'S, Yashwantrao Chavan Polytechnic, Ichalkaranji</p>
+        <br><br><br><br>
+
+        <span class="date" style="font-size: 20px;">2023 - 2025</span>
+        <h2>Higher Education - Dr. D.Y.Patil College of Engineering, Pune</h2>
+        <p>Pursuing my Bachelor of Engineering(B.E) education at Dr. D.Y.Patil College of Engineering, Pune</p>
+            
+            </div>
+            
+        </div>
+        <div class="grade">
+        <h2 style="color: #aa5e2c;margin-top: 50px;margin:50px"><strong>My Grades:</strong></h2>
+        
+        <table>
+            <tr>
+            <th>Sr.No</th>
+            <th>Class</th>
+            <th>Aggeregrate</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>SSC</td>
+                <td>90.60%</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Diploma</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Degree</td>
+                <td>8.41 SGPA</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+   
+
+   
+     <!-- Education Section Ends -->
+
+     <br><br>
+    <!--Skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <div class="skill-img">
+                    
+                <img src="skill1.jpg" alt="profile-img" align="right" width="300px" height="350px">
+            </div>
+            <h1 style="color:#C36A2D;font-size: 40px;" class="title"><strong>My Skills</strong></h1>
+            
+            <br><br>
+            <div class="column-right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                </div>
+                <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>70%</span>
+                </div>
+                <div class="line java"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Javascript</span>
+                        <span>80%</span>
+                </div>
+                <div class="line Javascript"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>40%</span>
+                </div>
+                <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Bootstrap</span>
+                        <span>20%</span>
+                </div>
+                <div class="line Bootstrap"></div>
+                </div>
+               
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Skills section end -->
+
+   
+
+     <!-- Project Section -->
+
+    <div class="project-section" id="project">
+        <br><br>
+     <h1 style="color:#C36A2D;font-size: 40px;"><strong>Projects</strong></h1>
+     <br><br>
+
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <h2>Web Based Online Examination System</h2>
+                <!-- <img src="project1.png" alt="Project" height=""> -->
+                <p>The ‘Web Based Online Examination System’ is a web-based examination system where quiz is taken online i.e. through the internet or intranet using computer system. The purpose of Quiz System is to take Semester Quizzes in an efficient manner and no time wasting for checking the paper. The main objective of  this system is to efficiently evaluate the candidate through a fully automated system that not only saves lot of time but also gives fast results. Teachers can administer quizzes using the System .The system will show result after the examination is finished. A teacher has control in the question bank and is supposed to make schedule for the quiz. The system carries out the examination and auto- grading for multiple choice questions which is fed into the system. Administrative control of the whole system is provided.</p>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+                <h2>Online Leave Management System</h2>
+                <p>Online Leave Management System is a web based application that is developed using PHP and MySQL. The objective of Leave Management System is to develop a web based application using which management of leave application and approval is done online. Faculty member of the institute can apply for leave and adjust their load directly from this application. HOD of their respective department can grant the leave application.The objective of Leave Management System is to develop a web based application using which management of leave application and approval is done online. Faculty member of the institute can apply for leave and adjust their load directly from this application. HOD of their respective department can grant the leave application.</p>
+            </div>
+        </div>
+        </div>
+     
+          
+          
+     <!-- End of Project Section -->
+
+     <!-- Contact Section Start-->
+        <br><br><br><br>
+        <!-- <div class="contact-cat" id="contact">
+        
+     <section class="contact-section">
+         <br><br>
+         <div class="column">
+             <div class="row">
+                 <div class="section-title">
+                    <h1 style="color:#C36A2D;font-size: 40px;" class="title"><strong>Contact Me</strong></h1>
+                    <br><br><br><br>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="contact-form">
+                 <div class="contact-info">
+                     <form>
+                         
+                             <div class="col-sm-6">
+                            <div class="input-group">
+                                <input type="text" name="" id="txtbox" placeholder="Name" class="input-control" required>   
+                            </div>
+                            <div class="input-group">
+                               <input type="text" name="" id="txtbox" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="" id="txtbox" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea name="" id="txtbox" cols="20" rows="5" placeholder="Message" class="input-control"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                            </div>
+                         </div>
+                     </form>
+                 </div>
+            </div>
+            <br>
+                <div class="col-sm-6">
+                 <div class="contact-info">
+                    <div class="contact-info-item">
+                       <h3>Name</h3>
+                      <p>Simran Balechand Bargir</p>
+                    </div>
+                    </div>
+                </div>
+                 <div class="contact-info">
+                     <div class="contact-info-item">
+                       
+                        <h3>Email</h3>
+                       <p>bargirsimran07@gmail.com</p>
+                     </div>
+                 </div>
+                 <div class="contact-info">
+                    <div class="contact-info-item">
+                      <h3>Phone</h3>  
+                      <p>91 738 *** ****</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                       <h3>Address</h3>
+                      <p>9/181,Yelaj Mala,Sangli Road,Ichalkaranji</p>
+                    </div>
+                </div>
+                <!-- <div class="contact-info">
+                    <div class="contact-info-item">
+                      <h3>Follow Me</h3>  
+                      <div class="social-links">
+                          <a href="https://www.linkedin.com/in/simran-bargir-220797222/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                          <i class="fab fa-facebook-square fa-2x"></i>
+                          <a href="https://www.instagram.com/bargirsimran_07/"><i class="fab fa-instagram-square fa-2x"></i></a>
+                      </div>
+                    </div>---->
+                <!-- </div> 
+                
+                </div>
+            </div>
+             </div>
+         </div>
+
+     </section>
+    </div> --> 
+     <!-- Contact Section End -->
+
+
+     
+    <div class="contact-section" id="contact">
+        <br><br>
+     <h1 style="color:#C36A2D;font-size: 40px;"><strong>Contact Me</strong></h1>
+     <br><br>
+
+        <div class="row">
+            <div class="column" style="background-color:whitesmoke;">
+                <div class="input-group">
+                    <input type="text" name="" id="txtbox" placeholder="Name" class="input-control" required>   
+                </div>
+                <div class="input-group">
+                   <input type="text" name="" id="txtbox" placeholder="Email" class="input-control" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="" id="txtbox" placeholder="Subject" class="input-control" required>
+                </div>
+                <div class="input-group">
+                    <textarea name="" id="txtbox" cols="20" rows="5" placeholder="Message" class="input-control"></textarea>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </div>
+            <div class="column" style="background-color:whitesmoke;">
+                <div class="contact-info">
+                <h3>Name</h3>
+                <p>Simran Balechand Bargir</p>
+                <h3>Email</h3>
+                <p>bargirsimran07@gmail.com</p>
+                <h3>Phone</h3>  
+                <p>91 738 *** ****</p>
+                <h3>Address</h3>
+                <p>Near Akurdi Railway Station, Gurudwara road, Chinchwad, Pune</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+</body>
+</html>
